@@ -10,7 +10,7 @@ import (
 	gossr "github.com/natewong1313/go-react-ssr"
 )
 
-var APP_ENV string
+var APP_ENV string = "production"
 
 func main() {
 	// Serve static files like favicon.ico and assets
